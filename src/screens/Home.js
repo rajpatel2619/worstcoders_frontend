@@ -98,7 +98,7 @@ Thanks for using worstcoders! Feel free to reach out to me on <a href="https://i
 <br />
 If you found this product helpful, consider supporting me with a cup of coffee!
     </p>
-      <a href="https://www.buymeacoffee.com/rajpatel2619" target="_blank" className="mimage">
+      <a href="https://www.buymeacoffee.com/rajpatel2619" rel="noreferrer" target="_blank" className="mimage">
       <img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" />
       </a>
         <p></p>
@@ -116,7 +116,7 @@ If you found this product helpful, consider supporting me with a cup of coffee!
                   roundedSize="3"
                   borderRadius="100"
                 />
-                <a href="https://instagram.com/worstcoders" target="_blank" style={{"textDecoration":"none"}}>
+                <a href="https://instagram.com/worstcoders" rel="noreferrer" target="_blank" style={{"textDecoration":"none"}}>
 
                 <h3>Worst Coders</h3>
                 </a>
@@ -143,7 +143,7 @@ If you found this product helpful, consider supporting me with a cup of coffee!
         </main>
         <div className="circle1"></div>
         <div className="circle2"></div>
-        <div className="credit">Designed with ❤️ by:  <a style={{"textDecoration":"none","color":"#1d6ad6"}} href="https://itsmeraj.in/" target="_blank">Raj Patel</a></div>
+        <div className="credit">Designed with ❤️ by:  <a style={{"textDecoration":"none","color":"#1d6ad6"}} href="https://itsmeraj.in/" rel="noreferrer" target="_blank">Raj Patel</a></div>
       </div>
     );
   }
