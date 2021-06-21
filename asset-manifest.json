@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/worstcoders_frontend/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/worstcoders_frontend/static/js/main.3dcbd2c8.chunk.js",
-    "main.js.map": "/worstcoders_frontend/static/js/main.3dcbd2c8.chunk.js.map",
+    "main.js": "/worstcoders_frontend/static/js/main.5055b458.chunk.js",
+    "main.js.map": "/worstcoders_frontend/static/js/main.5055b458.chunk.js.map",
     "runtime-main.js": "/worstcoders_frontend/static/js/runtime-main.89f20923.js",
     "runtime-main.js.map": "/worstcoders_frontend/static/js/runtime-main.89f20923.js.map",
     "static/js/2.4866c02f.chunk.js": "/worstcoders_frontend/static/js/2.4866c02f.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.89f20923.js",
     "static/js/2.4866c02f.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.3dcbd2c8.chunk.js"
+    "static/js/main.5055b458.chunk.js"
   ]
 }
