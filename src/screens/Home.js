@@ -31,8 +31,6 @@ class Home extends React.Component {
     this.state.data = [];
     this.setState({});
     await axios.get(`http://13.232.178.114/worstcoders/${current_contest}`).then((res) => {
-      console.log(res);
-      console.log("hi dat");
       if (!res.data.message) {
         this.state.data = res.data;
         this.setState({});

@@ -10,7 +10,7 @@ export default class ContestBox extends React.Component{
 		var duration = data['duration']/3600
 		
 		return(
-			<div key={data['name']} className="cards" >
+			<div className="cards" >
 				<a href={this.props.data[1]['url']} target="blank">
 				<div>
 				<p className="cname">
