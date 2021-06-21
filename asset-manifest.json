@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/worstcoders_frontend/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/worstcoders_frontend/static/js/main.dd7e7b35.chunk.js",
-    "main.js.map": "/worstcoders_frontend/static/js/main.dd7e7b35.chunk.js.map",
-    "runtime-main.js": "/worstcoders_frontend/static/js/runtime-main.89f20923.js",
-    "runtime-main.js.map": "/worstcoders_frontend/static/js/runtime-main.89f20923.js.map",
-    "static/js/2.4866c02f.chunk.js": "/worstcoders_frontend/static/js/2.4866c02f.chunk.js",
-    "static/js/2.4866c02f.chunk.js.map": "/worstcoders_frontend/static/js/2.4866c02f.chunk.js.map",
-    "static/js/3.ac512140.chunk.js": "/worstcoders_frontend/static/js/3.ac512140.chunk.js",
-    "static/js/3.ac512140.chunk.js.map": "/worstcoders_frontend/static/js/3.ac512140.chunk.js.map",
-    "index.html": "/worstcoders_frontend/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/worstcoders_frontend/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.4866c02f.chunk.js.LICENSE.txt": "/worstcoders_frontend/static/js/2.4866c02f.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/worstcoders_frontend/static/media/logo.6ce24c58.svg"
+    "main.css": "/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/static/js/main.dd7e7b35.chunk.js",
+    "main.js.map": "/static/js/main.dd7e7b35.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9f1dd860.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9f1dd860.js.map",
+    "static/js/2.4866c02f.chunk.js": "/static/js/2.4866c02f.chunk.js",
+    "static/js/2.4866c02f.chunk.js.map": "/static/js/2.4866c02f.chunk.js.map",
+    "static/js/3.ac512140.chunk.js": "/static/js/3.ac512140.chunk.js",
+    "static/js/3.ac512140.chunk.js.map": "/static/js/3.ac512140.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.4866c02f.chunk.js.LICENSE.txt": "/static/js/2.4866c02f.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.89f20923.js",
+    "static/js/runtime-main.9f1dd860.js",
     "static/js/2.4866c02f.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
     "static/js/main.dd7e7b35.chunk.js"
