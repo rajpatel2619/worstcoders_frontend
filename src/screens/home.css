@@ -207,7 +207,6 @@ hr{
 .percentage {
   font-weight: bold;
   background: linear-gradient(to right top, #73ebd5, #6cdbeb);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -264,11 +263,7 @@ hr{
   );
 }
 
-.cards:hover{
-  /* background: white; */
-  /* box-shadow: 5px 5px white; */
-  /* border-radius: 15px; */
-}
+
 
 .cards a{
   text-decoration: none;
@@ -328,4 +323,20 @@ hr{
     min-height: 100vh;
     border-radius: 0;
   }
+}
+
+
+.option{
+  /* border: 2px solid red; */
+  float: right;
+  margin-right: 10%;
+  margin-bottom: .2%;
+}
+
+.option select{
+padding: 5%;
+color: #426696;
+font-weight: bolder;
+border: 1px solid slateblue;
+background: #dce7f7;
 }

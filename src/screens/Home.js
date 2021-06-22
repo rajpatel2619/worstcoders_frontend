@@ -1,5 +1,5 @@
 import "./home.css";
-import logo from "../images/worstcoders_logo.jpg";
+import logo from "../images/worstcoders_logo.png";
 
 import ReactRoundedImage from "react-rounded-image";
 import React from "react";
@@ -16,9 +16,11 @@ class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      active_contest: "code_chef",
-      active_contest_name:"Codechef",
+      active_contest: "all",
+      active_contest_name:"All",
       data: [],
+      isAll:false,
+      status:"CODING",
       modelIsOpen:false
     };
   }
@@ -31,6 +33,8 @@ class Home extends React.Component {
     this.state.active_contest = current_contest;
     this.state.active_contest_name = current_contest_name;
     this.state.data = [];
+    if(this.current_contest==="all") this.state.isAll=true;
+    else this.state.isAll = false;
     this.setState({});
     await axios.get(`https://kontests.net/api/v1/${current_contest}`).then((res) => {
       if (!res.data.message) {
@@ -52,6 +56,7 @@ class Home extends React.Component {
         <ContestInfo
           active_contest={this.state.active_contest}
           data={this.state.data}
+          type={this.state.status}
         />
       );
   }
@@ -137,6 +142,14 @@ If you found this product helpful, consider supporting me with a cup of coffee!
                 <div className="bline"></div>
                 <br />
               </div>
+              <div className="option">
+              <p className="option">
+                <select id="lang" onChange={e=>this.setState({status:e.target.value})}>
+                  <option value="CODING">Ongoing</option>
+                  <option value="BEFORE">Upcoming</option>
+               </select> 
+              </p>
+           </div>
               {this.returnDiv(this.state.data)}
             </div>
           </section>

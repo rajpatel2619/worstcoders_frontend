@@ -1,5 +1,10 @@
 import React from 'react'
 export default class ContestBox extends React.Component{
+	showPlatform=(data)=>{
+		if(data[1]['site'])
+		return <p>Platform : {data[1]['site']}</p>;
+		else return;
+	}
 	render(){
 		var data = this.props.data[1]
 		var status = (data['status']==="CODING") ?  "running": "not started"
@@ -33,6 +38,7 @@ export default class ContestBox extends React.Component{
 				</span>
 				 &nbsp;&nbsp;| duration:<span> {duration.toFixed(2)} hours</span>
 				</p>
+				{this.showPlatform(this.props.data)}
 				</div>
 				</a>
 			</div>
