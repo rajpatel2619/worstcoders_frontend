@@ -113,6 +113,7 @@ If you found this product helpful, consider supporting me with a cup of coffee!
           <section className="glass">
             <div className="dashboard">
               <div className="user">
+                <a href="https://instagram.com/worstcoders" rel="noreferrer" target="_blank" style={{"textDecoration":"none"}}>
                 <ReactRoundedImage
                   image={logo}
                   roundedColor="skyblue"
@@ -121,7 +122,6 @@ If you found this product helpful, consider supporting me with a cup of coffee!
                   roundedSize="3"
                   borderRadius="100"
                 />
-                <a href="https://instagram.com/worstcoders" rel="noreferrer" target="_blank" style={{"textDecoration":"none"}}>
 
                 <h3>Worst Coders</h3>
                 </a>
