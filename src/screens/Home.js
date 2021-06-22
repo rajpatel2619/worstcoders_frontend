@@ -17,17 +17,19 @@ class Home extends React.Component {
     super(props);
     this.state = {
       active_contest: "code_chef",
+      active_contest_name:"Codechef",
       data: [],
       modelIsOpen:false
     };
   }
 
   componentDidMount() {
-    this.changeContest(this.state.active_contest);
+    this.changeContest(this.state.active_contest,this.state.active_contest_name);
   }
 
-  changeContest = async (current_contest) => {
+  changeContest = async (current_contest,current_contest_name) => {
     this.state.active_contest = current_contest;
+    this.state.active_contest_name = current_contest_name;
     this.state.data = [];
     this.setState({});
     await axios.get(`https://kontests.net/api/v1/${current_contest}`).then((res) => {
@@ -130,7 +132,7 @@ If you found this product helpful, consider supporting me with a cup of coffee!
             <div className="games">
               <div>
                 <h1 className="heading">
-                  {this.state.active_contest} Contests
+                  {this.state.active_contest_name} Contests
                 </h1>
                 <div className="bline"></div>
                 <br />
