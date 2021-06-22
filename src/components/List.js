@@ -18,15 +18,15 @@ export default class List extends React.Component{
 		super(props);
 		this.state ={
 			data :{
-				"AtCoder":atcoder,
-				"Codechef":codechef,
-				"Codeforces":codeforces,
-				"CsAcademy":csacademy,
-				"HackerRank":hackerrank,
-				"HackerEarth":hackerearth,
-				"KickStart":kickstart,
-				"Leetcode":leetcode,
-				"TopCoder":topcoder
+				"at_coder":atcoder,
+				"code_chef":codechef,
+				"codeforces":codeforces,
+				"cs_academy":csacademy,
+				"hacker_rank":hackerrank,
+				"hacker_earth":hackerearth,
+				"kick_start":kickstart,
+				"leet_code":leetcode,
+				"top_coder":topcoder
 			}
 		}
 		

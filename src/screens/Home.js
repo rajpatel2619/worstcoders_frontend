@@ -16,7 +16,7 @@ class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      active_contest: "Codechef",
+      active_contest: "code_chef",
       data: [],
       modelIsOpen:false
     };
@@ -30,7 +30,7 @@ class Home extends React.Component {
     this.state.active_contest = current_contest;
     this.state.data = [];
     this.setState({});
-    await axios.get(`http://13.232.178.114/worstcoders/${current_contest}`).then((res) => {
+    await axios.get(`https://kontests.net/api/v1/${current_contest}`).then((res) => {
       if (!res.data.message) {
         this.state.data = res.data;
         this.setState({});
