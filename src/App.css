@@ -1,0 +1,38 @@
+.web{
+	display: block;
+      }
+      .mobile{
+	display: none;
+	/* background:rgb(37, 33, 33); */
+	background: black;
+	height: 100vh;
+      }
+
+@media only screen and (max-width: 812px) {
+	.web{
+	  display: none;
+	}
+	.mobile{
+	  display: block;
+	}
+}
+
+.mcontent{
+padding: 10%;
+padding-top: 20%;
+padding-left: 12%;
+font-size: 1.7em;
+}
+
+.mcontent p{
+	margin-top: 40px;
+	color: teal;
+}
+
+.mcontent img{
+	margin-left: 30%;
+	width: 30%;
+}
+      .pbutton a img{
+	      width: 47%;
+      }

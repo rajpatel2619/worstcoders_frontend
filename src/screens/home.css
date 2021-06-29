@@ -307,23 +307,7 @@ hr{
 }
 
 
-@media only screen and (max-width: 1000px) {
-  .glass{
-    width: 80%;
-  }
-}
-@media only screen and (max-width: 950px) {
-  .glass{
-    width: 90%;
-  }
-}
-@media only screen and (max-width: 800px) {
-  .glass{
-    width: 90%;
-    min-height: 100vh;
-    border-radius: 0;
-  }
-}
+
 
 
 .option{
@@ -340,3 +324,4 @@ font-weight: bolder;
 border: 1px solid slateblue;
 background: #dce7f7;
 }
+

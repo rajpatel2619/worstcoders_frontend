@@ -157,6 +157,7 @@ If you found this product helpful, consider supporting me with a cup of coffee!
         <div className="circle1"></div>
         <div className="circle2"></div>
         <div className="credit">Designed with ❤️ by:  <a style={{"textDecoration":"none","color":"#1d6ad6"}} href="https://itsmeraj.in/" rel="noreferrer" target="_blank">Raj Patel</a></div>
+      
       </div>
     );
   }
