@@ -25,14 +25,21 @@ font-size: 1.7em;
 }
 
 .mcontent p{
-	margin-top: 40px;
+	margin-top: 30px;
+	font-weight: 400;
+	text-align: center;
 	color: teal;
 }
 
 .mcontent img{
-	margin-left: 30%;
+	margin-left: 33%;
 	width: 30%;
 }
       .pbutton a img{
-	      width: 47%;
+	      width: 43%;
+      }
+
+      .pbutton a{
+	      display: flex;
+	      /* justify-content: center; */
       }
