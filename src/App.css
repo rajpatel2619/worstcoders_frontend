@@ -33,13 +33,8 @@ font-size: 1.7em;
 
 .mcontent img{
 	margin-left: 33%;
-	width: 30%;
+	width: 33%;
 }
       .pbutton a img{
-	      width: 43%;
-      }
-
-      .pbutton a{
-	      display: flex;
-	      /* justify-content: center; */
+	      width: 44%;
       }
