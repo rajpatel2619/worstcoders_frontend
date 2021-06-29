@@ -6,7 +6,7 @@ export default class Mobile extends React.Component {
       <div>
         <div className="mcontent">
 	<div>
-		<img alt="image" src={wlogo} />
+		<img alt="our logo" src={wlogo} />
 	</div>
 	<p>
 
@@ -17,7 +17,7 @@ export default class Mobile extends React.Component {
 	<div className="pbutton">
 		<a href="https://play.google.com/store/apps/details?id=in.itsmeraj.worstcoders">
 
-		<img alt="image" src="https://freeiconshop.com/wp-content/uploads/edd/google-play-badge.png" />
+		<img alt="app logo" src="https://freeiconshop.com/wp-content/uploads/edd/google-play-badge.png" />
 		</a>
 	</div>
         </div>
