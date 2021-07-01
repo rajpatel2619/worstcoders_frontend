@@ -2,7 +2,7 @@ import React from 'react'
 export default class ContestBox extends React.Component{
 	showPlatform=(data)=>{
 		if(data[1]['site'])
-		return <p>Platform : {data[1]['site']}</p>;
+		return <p>Platform : <span style={{color:"rgb(45, 199, 153)"}}>{data[1]['site']}</span></p>;
 		else return;
 	}
 	render(){
