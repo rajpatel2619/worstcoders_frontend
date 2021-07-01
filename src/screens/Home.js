@@ -1,6 +1,5 @@
 import "./home.css";
 import logo from "../images/worstcoders_logo.png";
-
 import ReactRoundedImage from "react-rounded-image";
 import React from "react";
 import List from "../components/List";

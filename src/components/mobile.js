@@ -10,7 +10,7 @@ export default class Mobile extends React.Component {
 	</div>
 	<p>
 
-          This site is well optimised for desktop mode only. So please switch to
+          This site is well optimised for desktop mode. So please switch to
           the desktop view or Download our official mobile application directly
           from the playstore.
 	</p>
