@@ -39,6 +39,10 @@ export default class List extends React.Component {
       }else{
         return <span>☐</span>;
       }
+    }else{
+      if(this.props.selectedPlatforms.length===0){
+        return <span>✅</span>;
+      }
     }
   }
 
