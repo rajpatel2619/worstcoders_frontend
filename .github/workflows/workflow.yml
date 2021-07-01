@@ -1,4 +1,4 @@
-name: Github pages deploy
+name: Github pages deployed
 
 on:
   push:
