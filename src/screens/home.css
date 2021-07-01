@@ -45,7 +45,7 @@ main {
   max-height: 80vh;
   overflow: hidden;
   
-  width: 68.5%;
+  width: 73.5%;
   background: linear-gradient(
     to right bottom,
     rgba(255, 255, 255, 0.7),
@@ -71,12 +71,12 @@ main {
 }
 
 .circle1 {
-  top: 5%;
-  right: 12%;
+  top: 2%;
+  right: 8%;
 }
 .circle2 {
-  bottom: 5%;
-  left: 10%;
+  bottom: 2%;
+  left: 7%;
 }
 .credit{
   position: absolute;
