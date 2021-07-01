@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e66969b.chunk.css",
+    "main.css": "/static/css/main.1d09de55.chunk.css",
     "main.js": "/static/js/main.ffd90921.chunk.js",
     "main.js.map": "/static/js/main.ffd90921.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.478b0374.js",
@@ -10,7 +10,7 @@
     "static/js/3.26e0b33d.chunk.js": "/static/js/3.26e0b33d.chunk.js",
     "static/js/3.26e0b33d.chunk.js.map": "/static/js/3.26e0b33d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.5e66969b.chunk.css.map": "/static/css/main.5e66969b.chunk.css.map",
+    "static/css/main.1d09de55.chunk.css.map": "/static/css/main.1d09de55.chunk.css.map",
     "static/js/2.b33c9245.chunk.js.LICENSE.txt": "/static/js/2.b33c9245.chunk.js.LICENSE.txt",
     "static/media/atcoder.ae912d48.png": "/static/media/atcoder.ae912d48.png",
     "static/media/worstcoders_logo.5f27f65c.png": "/static/media/worstcoders_logo.5f27f65c.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.478b0374.js",
     "static/js/2.b33c9245.chunk.js",
-    "static/css/main.5e66969b.chunk.css",
+    "static/css/main.1d09de55.chunk.css",
     "static/js/main.ffd90921.chunk.js"
   ]
 }
