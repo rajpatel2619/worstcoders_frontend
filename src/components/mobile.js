@@ -11,7 +11,7 @@ export default class Mobile extends React.Component {
 	<p>
 
           This site is well optimised for desktop mode. So please switch to
-          the desktop view or Download our official mobile application directly
+          the desktop view or Download our official Mobile Application directly
           from the playstore.
 	</p>
 	<div className="pbutton">
