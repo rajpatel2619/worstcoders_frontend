@@ -44,7 +44,7 @@ class Home extends React.Component {
     });
     var arr2=[];
     for (var j = 0; j < this.state.data.length; j++) {
-      if (this.state.status === this.state.data[j]["status"]) {
+      if (this.state.status === this.state.data[j]["status"] && this.state.data[j].site!=="HackerRank" && this.state.data[j].site!=="HackerEarth" && this.state.data[j].site!=="TopCoder" && this.state.data[j].site!=="AtCoder") {
         arr2.push(this.state.data[j]);
       }
     }
